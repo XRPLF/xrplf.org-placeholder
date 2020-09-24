@@ -11,12 +11,15 @@
             Projects » List + Canny
          -->
         <div class="navbar ml-0 pl-0">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-flex flex-row">
             <li class="nav-item">
-              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'About' }" to="/about">About us</router-link> -->
+              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Home' }" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Projects' }" to="/projects">Our projects</router-link> -->
+              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Focus' }" to="/focus">Focus</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</router-link>
             </li>
             <li class="nav-item">
               <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Leadership' }" to="/leadership">Leadership</router-link> -->
@@ -31,7 +34,11 @@
         </div>
       </nav>
     </header>
-    <router-view class="text-left" />
+    <main>
+      <div class="container-fluid mt-5 pt-2 px-0 mt-sm-0 pb-4">
+        <router-view class="text-left" />
+      </div>
+    </main>
     <footer class="footer mt-auto py-2">
       <div class="container">
         <span class="text-muted">
@@ -107,11 +114,6 @@ export default {
   /* Custom page CSS
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
-
-  main > .container {
-    padding: 60px 15px 0;
-  }
-
   .footer {
     background-color: #f5f5f5;
   }

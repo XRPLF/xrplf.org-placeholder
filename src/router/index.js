@@ -11,30 +11,30 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/focus',
+    name: 'Focus',
+    component: () => import(/* webpackChunkName: "focus" */ '../views/Focus.vue')
   },
   {
-    path: '/projects',
-    name: 'Projects',
-    component: () => import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
-  },
-  {
-    path: '/leadership',
-    name: 'Leadership',
-    component: () => import(/* webpackChunkName: "leadership" */ '../views/Leadership.vue')
-  },
-  {
-    path: '/media',
-    name: 'Media',
-    component: () => import(/* webpackChunkName: "media" */ '../views/Media.vue')
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+    path: '/press',
+    name: 'Press',
+    component: () => import(/* webpackChunkName: "press" */ '../views/Press.vue')
   }
+  // {
+  //   path: '/leadership',
+  //   name: 'Leadership',
+  //   component: () => import(/* webpackChunkName: "leadership" */ '../views/Leadership.vue')
+  // },
+  // {
+  //   path: '/media',
+  //   name: 'Media',
+  //   component: () => import(/* webpackChunkName: "media" */ '../views/Media.vue')
+  // },
+  // {
+  //   path: '/contact',
+  //   name: 'Contact',
+  //   component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+  // }
 ]
 
 const router = new VueRouter({
