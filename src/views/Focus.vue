@@ -51,7 +51,7 @@
           <ul>
             <li>Strategic, coordinated engagement to further XRP Ledger adoption</li>
             <li>Collaboration with diverse stakeholders, such as businesses and universities</li>
-            <li>Fund raising</li>
+            <li>Fundraising</li>
           </ul>
         </div>
       </div>
