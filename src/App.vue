@@ -12,7 +12,7 @@
          -->
         <div class="navbar ml-0 pl-0">
           <ul class="navbar-nav d-flex flex-row">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Home' }" to="/">Home</router-link>
             </li>
             <li class="nav-item">
@@ -20,7 +20,7 @@
             </li>
             <li class="nav-item">
               <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</router-link>
-            </li>
+            </li> -->
             <!-- <li class="nav-item"> -->
             <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Leadership' }" to="/leadership">Leadership</router-link> -->
             <!-- </li> -->
@@ -61,6 +61,7 @@ export default {
 <style lang="scss">
   html, body {
     height: 100%;
+    font-size: 1.1em;
   }
 
   #app {
@@ -110,7 +111,7 @@ export default {
     z-index: 1;
     position: fixed;
     bottom: 0; left: 0; right: 0;
-    font-size: .9em;
+    font-size: .8em;
   }
 
   /* Custom page CSS

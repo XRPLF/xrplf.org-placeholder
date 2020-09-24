@@ -29,6 +29,12 @@
               </ul>
             </div>
           </div>
+          <div class="text-left mt-3 mb-5 pb-4">
+            <hr>
+            <Focus />
+            <hr>
+            <Press />
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +42,14 @@
 </template>
 
 <script>
+import Focus from './Focus'
+import Press from './Press'
+
 export default {
+  components: {
+    Focus,
+    Press
+  },
   name: 'XRPLF',
   props: {
     msg: String
