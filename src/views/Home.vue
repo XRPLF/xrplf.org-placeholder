@@ -13,10 +13,10 @@
         <a href="https://twitter.com/XRPLF" target="_blank" class="text-primary"><i class="fab fa-twitter"></i> @XRPLF</a> -->
         <div class="px-2">
           <div class="row">
-            <div class="col-5 col-md-4 col-lg-3 text-left">
-              <img alt="XRP Ledger Foundation" id="logo" src="logo.png" class="mb-4 fluid img-fluid" />
+            <div class="col-12 col-sm-5 col-md-4 col-lg-3 text-center">
+              <img alt="XRP Ledger Foundation" id="logo" src="logo.png" style="max-width: 200px" class="mb-4 fluid img-fluid" />
             </div>
-            <div class="col-7 col-md-8 col-lg-9 text-left">
+            <div class="col-12 col-sm-7 col-md-8 col-lg-9 text-left">
               <h1 class="mb-0 pb-0"><b>XRP Ledger Foundation</b></h1>
               <h4 class="pt-0 mt-2"><i>To foster development on, and widespread usage of the XRP Ledger</i></h4>
               <h2 class="pt-2">Values and Beliefs</h2>
