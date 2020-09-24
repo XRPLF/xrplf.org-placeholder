@@ -10,7 +10,7 @@
 
     <ul class="">
       <li>
-        <a href="docs/XRPLF-Press-release-24092020.pdf" class="">Sep 24, 2020 - Launch Press Release</a>
+        <a href="docs/XRP_Foundation_Release_24Sep2020.pdf" class="">Sep 24, 2020 - Launch Press Release</a>
       </li>
     </ul>
   </div>

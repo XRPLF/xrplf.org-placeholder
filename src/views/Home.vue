@@ -21,7 +21,7 @@
               <h4 class="pt-0 mt-2"><i>To foster development on, and widespread usage of the XRP Ledger</i></h4>
               <h2 class="pt-2">Values and Beliefs</h2>
               <ul class="list-unstyled fa-ul">
-                <li class="pt-2"><span class="fa-li"><i class="text-primary far fa-check-circle"></i></span> We value our role as an independent organization acting as a steward for the XRP Ledger</li>
+                <li class="pt-2"><span class="fa-li"><i class="text-primary far fa-check-circle"></i></span> We value our role as an independent organization acting in the best interests of the XRP Ledger</li>
                 <li class="pt-2"><span class="fa-li"><i class="text-primary far fa-check-circle"></i></span> We believe trust is foundational to our mission and building trust is a slow, steady process</li>
                 <li class="pt-2"><span class="fa-li"><i class="text-primary far fa-check-circle"></i></span> We believe in close working relationships with developers and organizations that build on and contribute to the XRP Ledger</li>
                 <li class="pt-2"><span class="fa-li"><i class="text-primary far fa-check-circle"></i></span> We value having the resources and support to compete on an equal playing field with other foundations in achieving our goals</li>
