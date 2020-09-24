@@ -1,5 +1,6 @@
 <template>
   <div class="hello text-center d-flex h-100">
+    <a name="home" class=""></a>
     <div class="align-self-center align-items-center">
       <div class="d-block">
         <!-- <img alt="XRP Ledger Foundation" id="logo" src="logo.png" style="max-width: 150px" class="mb-4">
@@ -30,8 +31,10 @@
             </div>
           </div>
           <div class="text-left mt-3 mb-5 pb-4">
+            <a name="focus"></a>
             <hr>
             <Focus />
+            <a name="press"></a>
             <hr>
             <Press />
           </div>
@@ -58,6 +61,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  a[name] {
+    display: block;
+    position: absolute;
+    // border: 1px solid red;
+    margin-top: -75px;
+  }
+  a[name=home] { margin-top: -200px; }
   h3 {
     margin: 40px 0 0;
   }

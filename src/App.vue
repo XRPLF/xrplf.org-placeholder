@@ -12,15 +12,18 @@
          -->
         <div class="navbar ml-0 pl-0">
           <ul class="navbar-nav d-flex flex-row">
-            <!-- <li class="nav-item">
-              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Home' }" to="/">Home</router-link>
+            <li class="nav-item">
+              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Home' }" to="/">Home</router-link> -->
+              <a href="#home" class="pointer nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Home' }" to="/">Home</a>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Focus' }" to="/focus">Focus</router-link>
+              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Focus' }" to="/focus">Focus</router-link> -->
+              <a href="#focus" class="pointer nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Focus' }" to="/focus">Focus</a>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</router-link>
-            </li> -->
+              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</router-link> -->
+              <a href="#press" class="pointer nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</a>
+            </li>
             <!-- <li class="nav-item"> -->
             <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Leadership' }" to="/leadership">Leadership</router-link> -->
             <!-- </li> -->
@@ -93,6 +96,7 @@ export default {
     .navbar-nav {
       a {
         transition: box-shadow 0.15s ease-in-out;
+        cursor: pointer;
 
         &:hover, &:active {
           box-shadow: 0 8px 0px -5px rgba(86,129,209, .2);
