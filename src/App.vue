@@ -21,21 +21,22 @@
             <li class="nav-item">
               <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Press' }" to="/press">Press</router-link>
             </li>
-            <li class="nav-item">
-              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Leadership' }" to="/leadership">Leadership</router-link> -->
-            </li>
-            <li class="nav-item">
-              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Media' }" to="/media">In the media</router-link> -->
-            </li>
-            <li class="nav-item">
-              <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Contact' }" to="/contact">Contact us</router-link> -->
-            </li>
+            <!-- <li class="nav-item"> -->
+            <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Leadership' }" to="/leadership">Leadership</router-link> -->
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+            <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Media' }" to="/media">In the media</router-link> -->
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+            <!-- <router-link class="nav-link mr-3" :class="{ 'text-dark active -font-weight-bold': $router.currentRoute.name === 'Contact' }" to="/contact">Contact us</router-link> -->
+            <!-- </li> -->
           </ul>
+          <a href="https://twitter.com/XRPLF" target="_blank" class="pull-right nav-link text-primary"><i class="fab fa-twitter"></i></a>
         </div>
       </nav>
     </header>
     <main>
-      <div class="container-fluid mt-5 pt-2 px-0 mt-sm-0 pb-4">
+      <div class="container-fluid mt-5 pt-2 px-0 mt-sm-0 pb-4 px-1">
         <router-view class="text-left" />
       </div>
     </main>
@@ -43,6 +44,7 @@
       <div class="container">
         <span class="text-muted">
           <b>XRP Ledger Foundation</b>
+          <a href="https://twitter.com/XRPLF" target="_blank" class="pl-3 text-primary"><i class="fab fa-twitter"></i></a>
         </span>
       </div>
     </footer>
